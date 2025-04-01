@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import Navbar from '../../Layoutes/Navbar'
+import Navbar from "../../Layoutes/Navbar";
 
 const Home = () => {
   return (
     <>
-
+      <Navbar />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
