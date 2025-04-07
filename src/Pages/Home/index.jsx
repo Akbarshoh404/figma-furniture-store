@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../../Layoutes/Navbar";
 import Header from "./Header";
 
+import Section3 from "../Section3";
 import Section5 from "../Section5";
 
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
     <>
       <Navbar />
       <Header />
+
+      <Section3 />
 
       <Section5 />
     </>
