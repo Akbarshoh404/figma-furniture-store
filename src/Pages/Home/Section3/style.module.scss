@@ -9,13 +9,13 @@
 .container {
   width: 95%;
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
   background-color: #473bf0;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 100px;
   padding: 20px;
 }
 
@@ -27,7 +27,6 @@
 }
 
 .container div {
-  width: 50%;
   color: white;
   padding: 20px;
   display: flex;
@@ -59,12 +58,18 @@
   line-height: 1.6;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .container img {
     width: 100%;
     width: 400px;
     height: auto;
     border-radius: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    gap: 50px;
   }
 }
 

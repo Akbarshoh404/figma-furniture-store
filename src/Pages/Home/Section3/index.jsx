@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./style.module.scss";
-import img from "../../Components/images/section3.png";
+import img from "../../../Components/images/section3.png";
 
 const Section3 = () => {
   return (
